@@ -1,0 +1,4 @@
+Size,Seq_Avg_Time_ns,Seq_Worst_Time_ns,Bin_Avg_Time_ns,Bin_Worst_Time_ns,Seq_Avg_Positions,Seq_Worst_Positions,Bin_Avg_Positions,Bin_Worst_Positions,Time_Speedup_Avg,Time_Speedup_Worst,Position_Efficiency_Avg,Position_Efficiency_Worst,Theoretical_Log2
+1000,23,672,23,29,16,1000,6,9,1.00,23.17,2.67,111.11,9.97
+10000,3656,6451,27,31,4914,10000,10,13,135.41,208.10,491.40,769.23,13.29
+100000,59098,62766,39,36,93497,100000,17,16,1515.33,1743.50,5499.82,6250.00,16.61

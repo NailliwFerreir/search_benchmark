@@ -2,7 +2,7 @@
 
 Comparação de desempenho entre **Busca Sequencial** e **Busca Binária** implementada em Rust.
 
-## 📋 Especificações do Estudo
+## Especificações do Estudo
 
 ### Algoritmos Testados
 
@@ -22,10 +22,10 @@ Comparação de desempenho entre **Busca Sequencial** e **Busca Binária** imple
 
 ### Métricas Coletadas
 
-- ⏱️ **Tempo de execução** (nanossegundos)
-- 📍 **Quantidade de posições visitadas**
+- **Tempo de execução** (nanossegundos)
+- **Quantidade de posições visitadas**
 
-## 🚀 Como Executar
+## Como Executar
 
 ```bash
 # Clonar o repositório
@@ -36,7 +36,7 @@ cd search_benchmark
 cargo run --release
 ```
 
-## 📊 Resultados
+## Resultados
 
 O programa gera um arquivo `benchmark_results.csv` com todas as métricas coletadas, incluindo:
 
@@ -45,11 +45,11 @@ O programa gera um arquivo `benchmark_results.csv` com todas as métricas coleta
 - Speedup e eficiência comparativa
 - Valores teóricos vs observados
 
-## 📈 Análise Gráfica
+## Análise Gráfica
 
 Os dados coletados foram analisados e visualizados em gráficos interativos:
 
-**[📊 Gráficos e Análise Completa](https://colab.research.google.com/drive/1X3MSX1ADwnVWsTnTZruGSonPsenqh43v?usp=sharing)**
+**[Gráficos e Análise Completa](https://colab.research.google.com/drive/1X3MSX1ADwnVWsTnTZruGSonPsenqh43v?usp=sharing)**
 
 ### Principais Conclusões
 
@@ -58,7 +58,7 @@ Os dados coletados foram analisados e visualizados em gráficos interativos:
 - Speedup varia de **111x** (1K elementos) até **6.250x** (100K elementos)
 - O comportamento prático confirma a análise assintótica teórica
 
-## 🏗️ Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 src/
@@ -68,11 +68,11 @@ src/
 └── csv_export.rs   # Exportação de dados
 ```
 
-## 🔧 Dependências
+## Dependências
 
 - `rand` - Geração de números aleatórios para casos médios
 
-## 📄 Saída
+## Saída
 
 - `benchmark_results.csv` - Dados completos para análise
 - Relatório no console com métricas principais
